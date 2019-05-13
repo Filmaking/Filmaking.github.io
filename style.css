@@ -1,0 +1,100 @@
+body {
+  background: #eaf9f8;
+  font-family: calibri;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: bold;
+  color: #750404;
+  text-align: center;
+}
+h2 {
+  color: black;
+  font-size: 30px;
+}
+p {
+  color: #021e49;
+  font-weight: bold;
+  text-align: left;
+}
+
+img.HeadPic {
+  border-radius: 3vh;
+  width: 70vw;
+  height: 70vh;
+  border: 1vh solid #2d2d2d;
+}
+h3 {
+  color: green;
+  text-align: left;
+  font-size: 40px;
+}
+h4 {
+  font-size: 30px;
+  text-align: left;
+}
+img {
+  border: 1vh solid #2d2d2d;
+}
+
+.topnav {
+  background-color: #021e49;
+  overflow: hidden;
+  width: 3200px;
+  border: 0.1vh solid #2d2d2d;
+  border-color: black;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: white;
+  align-self: right;
+  text-align: left;
+}
+
+.container {
+  margin-left: 6 3.50vw;
+
+}
+
+.int {
+  display: flex;
+  text-align: center;
+}
+
+.int p {
+  justify-content: space-around;
+  text-align: justify;
+  text-justify: inter-word;
+  max-width: 40vw;
+  width: 9000px;
+  margin: 40px;
+}
+.topnav .active {
+  color: blue;
+}
+.topnav .current {
+  color: blue;
+}
+
+.forefront-element {
+    -webkit-transform: translateZ(999px) scale(.7);
+    transform: translateZ(999px) scale(.7);
+    z-index: 1;
+  }
+
+  .base-element {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 4;
+  }
+
+  .background-element {
+    -webkit-transform: translateZ(-999px) scale(2);
+    transform: translateZ(-999px) scale(2);
+    z-index: 3;
+  }
+
+  .topnav .film {
+    border-bottom: none;
+  }
