@@ -70,12 +70,6 @@ img {
   width: 9000px;
   margin: 40px;
 }
-.topnav .active {
-  color: blue;
-}
-.topnav .current {
-  color: blue;
-}
 
 .forefront-element {
     -webkit-transform: translateZ(999px) scale(.7);
