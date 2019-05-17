@@ -92,3 +92,6 @@ img {
   .topnav .film {
     border-bottom: none;
   }
+  .video .film {
+    border: 5px solid black;
+}
