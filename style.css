@@ -127,6 +127,7 @@ img {
   section {
     float: bottom;
   }
- 
 
-    float: bottom;
+footer {
+  background-color: blue;
+    }
