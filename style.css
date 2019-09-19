@@ -1,7 +1,6 @@
 body {
   background: #eaf9f8;
   font-family: calibri;
-  margin: 0;
 }
 
 h1 {
@@ -16,7 +15,7 @@ h2 {
 p {
   color: #021e49;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   padding: 20px;
 }
 
