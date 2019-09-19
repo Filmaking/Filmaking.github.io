@@ -20,8 +20,7 @@ p {
 }
 
 .BannerPicture {
-  background: url("https://pbs.twimg.com/profile_images/3568558326/6203c5e8686ca1165150cc68eb447ede.png") no-repeat center;
-  background-size: cover;
+  background: url("https://www.woluweparents.org/wp-content/themes/adam/images/logo.png")no repeat center;
   height: 90vh;
   position: relative;
 }
