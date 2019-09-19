@@ -20,13 +20,30 @@ p {
   text-align: left;
 }
 
-.parallax {
-  background-image: url("https://lessonbucket.com/wp-content/uploads/2013/06/filmmaking-mistakes-980x606.jpg");
-  height: 100vh;
-  width: 100vw;
-  background-position: center; 
-  background-repeat: no-repeat; 
+.BannerPicture {
+  background: url("https://www.woluweparents.org/wp-content/themes/adam/images/logo.png") no-repeat center;
+  background-color: white;
   background-size: cover;
+  height: 90vh;
+  position: relative;
+}
+
+.Banner {
+  position: relative;
+  overflow: hidden;
+  z-index: -10;
+}
+
+.BannerPicture::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.25)
+}
+
 }
 .pContainer {
   overflow: hidden;
