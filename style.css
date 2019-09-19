@@ -2,7 +2,7 @@ body {
   background: #eaf9f8;
   font-family: calibri;
   margin: 0;
-  padding: 20;
+  padding: 20px;
 }
 
 h1 {
@@ -17,7 +17,8 @@ h2 {
 p {
   color: #021e49;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
+  padding: 20px;
 }
 
 .BannerPicture {
