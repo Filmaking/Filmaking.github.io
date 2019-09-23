@@ -24,10 +24,11 @@ p {
   background: url("https://www.woluweparents.org/wp-content/themes/adam/images/logo.png");
   height: 90vh;
   position: fixed;
+  background: cover;
 }
 
 .Banner {
-  position: relative;
+  position: fixed;
   overflow: hidden;
   z-index: -10;
 }
