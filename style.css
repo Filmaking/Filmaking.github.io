@@ -92,8 +92,7 @@ img {
   font-size: 40px;
   font-weight: bold;
   background-color: white;
-  align-self: right;
-  text-align: left;
+  position: fixed;
 }
 
 .int {
