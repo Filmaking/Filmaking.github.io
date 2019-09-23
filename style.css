@@ -23,20 +23,19 @@ p {
 .BannerPicture {
   background: url("https://www.woluweparents.org/wp-content/themes/adam/images/logo.png");
   height: 90vh;
-  position: fixed;
+  position: relative;
   background: cover;
-  overflow: visible;
 }
 
 .Banner {
   position: fixed;
-  overflow: visible;
+  overflow: hidden;
   z-index: -10;
 }
 
 .BannerPicture::before {
   content: "";
-  position: absolute;
+  position: static;
   top: 0;
   bottom: 0;
   left: 0;
