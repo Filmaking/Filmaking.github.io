@@ -25,11 +25,12 @@ p {
   height: 90vh;
   position: fixed;
   background: cover;
+  overflow: visible;
 }
 
 .Banner {
   position: fixed;
-  overflow: hidden;
+  overflow: visible;
   z-index: -10;
 }
 
