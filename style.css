@@ -1,5 +1,4 @@
 body {
-  background: white;
   font-family: calibri;
   padding: 15px;
 }
@@ -211,6 +210,6 @@ footer {
     display: none;
   }
 
-  .p {
+  .color {
     background: #7e9ed9;
   }
