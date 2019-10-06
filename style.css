@@ -24,6 +24,7 @@ p {
   height: 100vh;
   position: static;
   background: cover;
+  width: 130vh;
 }
 
 .Banner {
